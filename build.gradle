@@ -44,3 +44,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext {
+    kotlin_version = "1.6.20"
+    nav_version = "2.4.1"
+    room_version = '2.4.2'
+}
